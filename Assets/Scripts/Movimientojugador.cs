@@ -25,4 +25,4 @@ public class Movimientojugador : MonoBehaviour
         transform.Translate(movimientoEjeX, movimientoEjeY, movimientoEjeZ);
     }
 }
-         
+          
