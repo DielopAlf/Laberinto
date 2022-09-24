@@ -8,7 +8,7 @@ public class Movimientojugador : MonoBehaviour
     public float movimientoEjeY;
     public float movimientoEjeX;
 
-    public float velocidadMovimiento = -1.5f;
+    public float velocidadMovimiento = -1.7f;
     // Start is called before the first frame update
     void Start()
     {

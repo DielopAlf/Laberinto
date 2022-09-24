@@ -5,7 +5,7 @@ using UnityEngine;
 public class Rotador : MonoBehaviour
 {
     [SerializeField]
-    float rotacionY = 10f;  
+    float rotacionY = 20f;  
     
     void Update()
     {

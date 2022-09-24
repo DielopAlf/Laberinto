@@ -43,7 +43,7 @@ public class DetectorColisionPared : MonoBehaviour
 
             Debug.Log(col.gameObject.name);
             gameObject.GetComponent<MeshRenderer>().material = ParedChoque;
-            paredRoja = true;
+            paredRoja = (true);
         }
                 
     }
