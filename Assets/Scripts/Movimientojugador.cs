@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; 
 
 public class Movimientojugador : MonoBehaviour
 {
+
     public float movimientoEjeZ;
     public float movimientoEjeY;
     public float movimientoEjeX;
@@ -24,5 +26,7 @@ public class Movimientojugador : MonoBehaviour
         movimientoEjeX = -Input.GetAxis("Vertical") * Time.deltaTime * velocidadMovimiento;
         transform.Translate(movimientoEjeX, movimientoEjeY, movimientoEjeZ);
     }
+
+    
 }
           
