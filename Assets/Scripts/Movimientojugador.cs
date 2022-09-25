@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Movimientojugador : MonoBehaviour
 {
+    public Text valor;
 
     public float movimientoEjeZ;
     public float movimientoEjeY;
@@ -27,6 +28,5 @@ public class Movimientojugador : MonoBehaviour
         transform.Translate(movimientoEjeX, movimientoEjeY, movimientoEjeZ);
     }
 
-    
 }
           
