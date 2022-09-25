@@ -29,8 +29,7 @@ public class MetaDetector : MonoBehaviour
     {
        if (other.tag == "Player")
       
-        { 
-
+        {
 
             pantallaFinal.SetActive(true);
             other.GetComponent<Movimientojugador>().enabled =false;
